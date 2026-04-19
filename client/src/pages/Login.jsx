@@ -53,6 +53,9 @@ export default function Login() {
           <button type="submit" className="btn btn-primary form-full btn-lg" disabled={loading}>
             {loading ? 'Signing in...' : 'Sign In →'}
           </button>
+          <p style={{ marginTop: '1rem' }}>
+            Don't have an account? <a href="/register">Register</a>
+          </p>
         </form>
 
         <div style={{ marginTop: '1.5rem', padding: '1rem', background: '#f8fafc', borderRadius: '10px', fontSize: '0.8rem' }}>
